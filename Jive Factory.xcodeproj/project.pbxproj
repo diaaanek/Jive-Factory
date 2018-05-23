@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291647E7FD75006183C485D4 /* Pods_Jive_Factory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D0C8F75DD89DB2DAF079B6 /* Pods_Jive_Factory.framework */; };
+		D028566220264AAA007D8866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028566120264AAA007D8866 /* AppDelegate.swift */; };
+		D028566420264AAA007D8866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028566320264AAA007D8866 /* ViewController.swift */; };
+		D028566720264AAA007D8866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D028566520264AAA007D8866 /* Main.storyboard */; };
+		D028566920264AAA007D8866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D028566820264AAA007D8866 /* Assets.xcassets */; };
+		D028566C20264AAA007D8866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D028566A20264AAA007D8866 /* LaunchScreen.storyboard */; };
+		D028567420265925007D8866 /* BandsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028567320265925007D8866 /* BandsTableViewController.swift */; };
+		D0C2BCDE202F4D760090D798 /* BandsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2BCDD202F4D760090D798 /* BandsDetailViewController.swift */; };
+		D0C2BCE0202F4F8E0090D798 /* BandDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2BCDF202F4F8E0090D798 /* BandDetail.swift */; };
+		D0C2BCE8202F76C70090D798 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2BCE7202F76C70090D798 /* MapViewController.swift */; };
+		D0C2BCEA202F82C10090D798 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2BCE9202F82C10090D798 /* WebViewController.swift */; };
+		D0C2BD0C2041B5810090D798 /* BandsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C2BD0B2041B5810090D798 /* BandsModel.swift */; };
+		D0C2BD0E2041BDFC0090D798 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C2BD0D2041BDFC0090D798 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B1AD39FAF664B6A6CB3CFA9 /* Pods-Jive Factory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jive Factory.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jive Factory/Pods-Jive Factory.release.xcconfig"; sourceTree = "<group>"; };
+		70D0C8F75DD89DB2DAF079B6 /* Pods_Jive_Factory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jive_Factory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D028565E20264AAA007D8866 /* Jive Factory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jive Factory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D028566120264AAA007D8866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D028566320264AAA007D8866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D028566620264AAA007D8866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D028566820264AAA007D8866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D028566B20264AAA007D8866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D028566D20264AAA007D8866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D028567320265925007D8866 /* BandsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandsTableViewController.swift; sourceTree = "<group>"; };
+		D0C2BCDD202F4D760090D798 /* BandsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandsDetailViewController.swift; sourceTree = "<group>"; };
+		D0C2BCDF202F4F8E0090D798 /* BandDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandDetail.swift; sourceTree = "<group>"; };
+		D0C2BCE7202F76C70090D798 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D0C2BCE9202F82C10090D798 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D0C2BD0B2041B5810090D798 /* BandsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandsModel.swift; sourceTree = "<group>"; };
+		D0C2BD0D2041BDFC0090D798 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F820F52BF7CCD0CED3177EF4 /* Pods-Jive Factory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jive Factory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jive Factory/Pods-Jive Factory.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D028565B20264AAA007D8866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291647E7FD75006183C485D4 /* Pods_Jive_Factory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		502AD3BCE85166C623A57A59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F820F52BF7CCD0CED3177EF4 /* Pods-Jive Factory.debug.xcconfig */,
+				5B1AD39FAF664B6A6CB3CFA9 /* Pods-Jive Factory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D028565520264AA9007D8866 = {
+			isa = PBXGroup;
+			children = (
+				D028566020264AAA007D8866 /* Jive Factory */,
+				D028565F20264AAA007D8866 /* Products */,
+				502AD3BCE85166C623A57A59 /* Pods */,
+				F04205356D9BCF488060474C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D028565F20264AAA007D8866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D028565E20264AAA007D8866 /* Jive Factory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D028566020264AAA007D8866 /* Jive Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D028566120264AAA007D8866 /* AppDelegate.swift */,
+				D0C2BD0B2041B5810090D798 /* BandsModel.swift */,
+				D028566320264AAA007D8866 /* ViewController.swift */,
+				D028567320265925007D8866 /* BandsTableViewController.swift */,
+				D0C2BCDF202F4F8E0090D798 /* BandDetail.swift */,
+				D0C2BCE7202F76C70090D798 /* MapViewController.swift */,
+				D0C2BCE9202F82C10090D798 /* WebViewController.swift */,
+				D028566520264AAA007D8866 /* Main.storyboard */,
+				D0C2BCDD202F4D760090D798 /* BandsDetailViewController.swift */,
+				D028566820264AAA007D8866 /* Assets.xcassets */,
+				D028566A20264AAA007D8866 /* LaunchScreen.storyboard */,
+				D028566D20264AAA007D8866 /* Info.plist */,
+				D0C2BD0D2041BDFC0090D798 /* GoogleService-Info.plist */,
+			);
+			path = "Jive Factory";
+			sourceTree = "<group>";
+		};
+		F04205356D9BCF488060474C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70D0C8F75DD89DB2DAF079B6 /* Pods_Jive_Factory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D028565D20264AAA007D8866 /* Jive Factory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D028567020264AAA007D8866 /* Build configuration list for PBXNativeTarget "Jive Factory" */;
+			buildPhases = (
+				74193275B1CE698849CE372F /* [CP] Check Pods Manifest.lock */,
+				D028565A20264AAA007D8866 /* Sources */,
+				D028565B20264AAA007D8866 /* Frameworks */,
+				D028565C20264AAA007D8866 /* Resources */,
+				01FD11B8E5D58D08033F4EA2 /* [CP] Embed Pods Frameworks */,
+				0AEC00CA8E5B06028D852205 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jive Factory";
+			productName = "Jive Factory";
+			productReference = D028565E20264AAA007D8866 /* Jive Factory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D028565620264AA9007D8866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Diane Korongy";
+				TargetAttributes = {
+					D028565D20264AAA007D8866 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D028565920264AA9007D8866 /* Build configuration list for PBXProject "Jive Factory" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D028565520264AA9007D8866;
+			productRefGroup = D028565F20264AAA007D8866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D028565D20264AAA007D8866 /* Jive Factory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D028565C20264AAA007D8866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D028566C20264AAA007D8866 /* LaunchScreen.storyboard in Resources */,
+				D0C2BD0E2041BDFC0090D798 /* GoogleService-Info.plist in Resources */,
+				D028566920264AAA007D8866 /* Assets.xcassets in Resources */,
+				D028566720264AAA007D8866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01FD11B8E5D58D08033F4EA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Jive Factory/Pods-Jive Factory-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jive Factory/Pods-Jive Factory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AEC00CA8E5B06028D852205 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jive Factory/Pods-Jive Factory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74193275B1CE698849CE372F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jive Factory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D028565A20264AAA007D8866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C2BCDE202F4D760090D798 /* BandsDetailViewController.swift in Sources */,
+				D0C2BCE8202F76C70090D798 /* MapViewController.swift in Sources */,
+				D028566420264AAA007D8866 /* ViewController.swift in Sources */,
+				D028567420265925007D8866 /* BandsTableViewController.swift in Sources */,
+				D0C2BD0C2041B5810090D798 /* BandsModel.swift in Sources */,
+				D0C2BCEA202F82C10090D798 /* WebViewController.swift in Sources */,
+				D0C2BCE0202F4F8E0090D798 /* BandDetail.swift in Sources */,
+				D028566220264AAA007D8866 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D028566520264AAA007D8866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D028566620264AAA007D8866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D028566A20264AAA007D8866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D028566B20264AAA007D8866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D028566E20264AAA007D8866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D028566F20264AAA007D8866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D028567120264AAA007D8866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F820F52BF7CCD0CED3177EF4 /* Pods-Jive Factory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FZ389MTN2;
+				INFOPLIST_FILE = "Jive Factory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DianeKorongy.Jive-Factory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D028567220264AAA007D8866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1AD39FAF664B6A6CB3CFA9 /* Pods-Jive Factory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FZ389MTN2;
+				INFOPLIST_FILE = "Jive Factory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DianeKorongy.Jive-Factory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D028565920264AA9007D8866 /* Build configuration list for PBXProject "Jive Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D028566E20264AAA007D8866 /* Debug */,
+				D028566F20264AAA007D8866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D028567020264AAA007D8866 /* Build configuration list for PBXNativeTarget "Jive Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D028567120264AAA007D8866 /* Debug */,
+				D028567220264AAA007D8866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D028565620264AA9007D8866 /* Project object */;
+}
